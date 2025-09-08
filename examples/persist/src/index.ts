@@ -1,4 +1,4 @@
-import { Actor, handler, Persist } from '../../../packages/core/src'
+import { Actor, handler, Persist } from 'actor-core'
 
 // -------------------------------------------------
 // Example Actor with RPC calling into another Actor

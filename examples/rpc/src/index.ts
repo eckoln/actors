@@ -1,4 +1,4 @@
-import { Actor, Entrypoint, handler } from '../../../packages/core/src'
+import { Actor, Entrypoint, handler } from 'actor-core'
 
 export class MyWorker extends Entrypoint<Env> {
     async fetch(request: Request): Promise<Response> {

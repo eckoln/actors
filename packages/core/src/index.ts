@@ -1,7 +1,7 @@
 import { env, DurableObject, WorkerEntrypoint } from "cloudflare:workers";
-import { Storage } from "../../storage/src/index";
-import { Alarms } from "../../alarms/src/index";
-import { Sockets } from "../../sockets/src/index";
+import { Storage } from "actor-storage";
+import { Alarms } from "actor-alarms";
+import { Sockets } from "actor-sockets";
 import { Persist, PERSISTED_VALUES, initializePersistedProperties, persistProperty } from "./persist";
 
 export { Persist };

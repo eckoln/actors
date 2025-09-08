@@ -1,4 +1,4 @@
-import { Actor, handler } from '../../../packages/core/src'
+import { Actor, handler } from 'actor-core'
 
 export class MyActor extends Actor<Env> {
     async fetch(request: Request): Promise<Response> {
