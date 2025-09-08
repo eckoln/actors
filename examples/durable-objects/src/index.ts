@@ -1,6 +1,6 @@
 import { DurableObject } from 'cloudflare:workers';
-import { Alarms } from '../../../packages/alarms/src';
-import { Storage } from '../../../packages/storage/src';
+import { Alarms } from 'actor-alarms';
+import { Storage } from 'actor-storage';
 
 /**
  * -------------------

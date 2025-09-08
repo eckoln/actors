@@ -1,4 +1,4 @@
-import { Actor, ActorConfiguration, handler } from '../../../packages/core/src'
+import { Actor, ActorConfiguration, handler } from 'actor-core'
 
 export class MySocketsActor extends Actor<Env> {
     // This is optional to implement, defaults are shown in below comments

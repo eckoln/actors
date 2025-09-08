@@ -11,6 +11,9 @@
     "keywords": [],
     "author": "",
     "dependencies": {
+        "actor-core": "*",
+        "actor-storage": "*",
+        "actor-alarms": "*",
         "@cloudflare/vite-plugin": "^1.12.3",
         "vite": "^6.3.5"
     }

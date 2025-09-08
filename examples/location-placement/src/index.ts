@@ -1,4 +1,4 @@
-import { Actor, ActorConfiguration, handler } from '../../../packages/core/src'
+import { Actor, ActorConfiguration, handler } from 'actor-core'
 
 export class MyActor extends Actor<Env> {
     static configuration(request: Request): ActorConfiguration {
