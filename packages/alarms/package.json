@@ -7,6 +7,9 @@
     "scripts": {
       "build": "tsc -p ."
     },
+    "exports":{
+      ".": "./src/index.ts"
+    },
     "peerDependencies": {
       "cron-schedule": "^5.0.4",
       "nanoid": "^5.1.5"

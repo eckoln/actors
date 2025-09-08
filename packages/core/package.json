@@ -8,6 +8,9 @@
         "build": "tsc -p .",
         "test": "vitest --run"
     },
+    "exports":{
+        ".": "./src/index.ts"
+    },
     "dependencies": {
         "actor-storage": "0.0.0"
     },
