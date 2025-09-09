@@ -1,4 +1,4 @@
-import { Actor, Entrypoint, handler } from '../../../packages/core/src'
+import { Actor, Entrypoint, handler } from '@cloudflare/actors'
 
 // -----------------------------------------------------
 // Example response without explicitly defining a Worker

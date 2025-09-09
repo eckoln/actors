@@ -1,4 +1,4 @@
-import { Actor, handler } from '../../../packages/core/src'
+import { Actor, handler } from '@cloudflare/actors'
 import { Hono } from 'hono'
 
 // Hono inside of an Actor

@@ -1,4 +1,4 @@
-import { Actor, ActorConfiguration, handler } from '../../../packages/core/src'
+import { Actor, ActorConfiguration, handler } from '@cloudflare/actors'
 
 export class MyActor extends Actor<Env> {
     static configuration(request: Request): ActorConfiguration {

@@ -1,7 +1,7 @@
 import { DurableObject } from "cloudflare:workers"
-import { Actor, handler, Entrypoint, ActorState, ActorConfiguration } from '../../../packages/core/src'
-import { Storage } from '../../../packages/storage/src'
-import { Alarms } from "../../../packages/alarms/src";
+import { Actor, handler, Entrypoint, ActorState, ActorConfiguration } from '@cloudflare/actors'
+import { Storage } from '@cloudflare/actors/storage'
+import { Alarms } from "@cloudflare/actors/alarms";
 
 /**
  * ------------
